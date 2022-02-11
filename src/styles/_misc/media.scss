@@ -1,0 +1,190 @@
+@media (min-width: 320px) and (max-width: 991px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .main-slider-block__title {
+    font-size: 16px;
+    line-height: 100%;
+  }
+
+  .main-slider-block__subtitle {
+    font-size: 13px;
+    line-height: 100%;
+  }
+
+  .main-slider-image {
+    width: 80px;
+    height: auto;
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .main-social {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .main-social {
+    flex-direction: column;
+  }
+
+  .main-social-info__title {
+    margin-bottom: 25px;
+  }
+
+  .main-social-info {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .main {
+    padding-bottom: 40px;
+  }
+
+  .delivery-main {
+    width: 100%;
+  }
+
+  .delivery-head__title {
+    font-size: 20px;
+  }
+
+  .delivery-chat {
+    width: 170px;
+    height: 40px;
+    margin-right: 18px;
+  }
+
+  .delivery-btn {
+    width: 40px;
+    height: 40px;
+  }
+
+  .delivery-footer {
+    align-items: center;
+  }
+
+  .main-banner__telegram {
+    display: none;
+  }
+
+  .main-banner__iphone {
+    display: none;
+  }
+
+  .main-banner__title {
+    font-size: 30px;
+    line-height: 100%;
+  }
+
+  .main-banner__info {
+    width: 90%;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .main-banner {
+    margin-top: 25px;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+  }
+
+  .main-action-item__text {
+    display: none;
+  }
+
+  .main-action-item {
+    width: 40px;
+    height: 40px;
+  }
+
+  .main-action-item:not(:last-of-type) {
+    margin-right: 20px;
+  }
+
+  .main-social {
+    flex-direction: column;
+    padding: 20px 5px;
+  }
+
+  .main-social-info__text {
+    display: none;
+  }
+
+  .main-social-info__title {
+    font-size: 20px;
+    line-height: 100%;
+    margin-bottom: 15px;
+  }
+
+  .main-social-icons__btn {
+    width: 45px;
+    height: 45px;
+  }
+
+  .main-questions {
+    margin-top: 40px;
+  }
+
+  .main-questions__title {
+    font-size: 20px;
+    line-height: 100%;
+    margin-bottom: 20px;
+  }
+
+  .main-help {
+    margin-top: 40px;
+  }
+
+  .main-help__title {
+    font-size: 20px;
+    line-height: 100%;
+    margin-bottom: 20px;
+  }
+
+  .main-help-info {
+    width: 100%;
+  }
+
+  .main-help-item {
+    padding: 14px 12px;
+  }
+
+  .main-help-item__title {
+    font-size: 14px;
+    line-height: 100%;
+  }
+
+  .main-help-item__subtitle {
+    font-size: 11px;
+    line-height: 100%;
+    margin-top: 4px;
+    width: 85%;
+  }
+
+  .main-slider-item {
+    height: 130px;
+  }
+
+  .main-slider-block {
+    justify-content: center;
+  }
+
+  .slick-prev, .slick-next {
+    opacity: 0;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .main-social-icons__btn {
+    width: 35px;
+    height: 35px;
+  }
+}
